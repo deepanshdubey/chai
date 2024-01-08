@@ -22,7 +22,7 @@ export default function Display() {
           <thead>
             <tr>
               <th>#</th>
-              <th>Ingridients</th>
+              <th>Ingredients</th>
               <th>Quantity</th>
               <th>Unit</th>
             </tr>
