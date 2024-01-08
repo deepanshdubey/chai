@@ -86,6 +86,7 @@ export default function Chai() {
           <Form.Select
             aria-label="No. of Cups"
             id="cups"
+            size="lg"
             value={cups}
             onChange={handleCups}
           >
@@ -105,6 +106,7 @@ export default function Chai() {
           <Form.Select
             aria-label="Type of Milk"
             id="milk"
+            size="lg"
             value={milk}
             onChange={handleMilk}
           >

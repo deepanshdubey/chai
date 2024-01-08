@@ -17,6 +17,7 @@ export default function Display() {
         <div className="logo mb-2">
           <iframe src="https://lottie.host/embed/b1671b1a-3cbb-4ba8-afdc-23158e95281e/ea1VF8Gagt.json"></iframe>
         </div>
+        <div className="tableContainer">
         <Table striped bordered hover variant="dark">
           <thead>
             <tr>
@@ -45,7 +46,7 @@ export default function Display() {
                   <td>3</td>
                   <td>Tea Leaves</td>
                   <td>{ingredientsData.teaLeaves}</td>
-                  <td>teaspoon(s)</td>
+                  <td>small teaspoon(s)</td>
                 </tr>
                 <tr>
                   <td>4</td>
@@ -73,6 +74,7 @@ export default function Display() {
             )}
           </tbody>
         </Table>
+        </div>
 
         <form>
           <div className="buttons">
