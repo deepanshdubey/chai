@@ -6,7 +6,6 @@ import Right from "../../src/static/right.jpg";
 import Reset from "../../src/static/reset.png";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 
 // import teaLoaded from "../../src/static/teaLoaded.mov"
